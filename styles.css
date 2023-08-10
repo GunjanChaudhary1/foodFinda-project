@@ -400,3 +400,117 @@
     padding: 20px;
     border: 1px solid #fff
 }
+
+.sliderbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.slideleft{
+   background-color: #8eb508;
+   margin-right: 10px;
+   padding: 15px 20px;
+}
+
+.imageleft{
+    width: 15px;
+    height: 15px;
+}
+
+.imageright{
+    width: 15px;
+    height: 15px;
+}
+   
+.slideright{
+    background-color: #8eb508;
+    padding: 15px 20px;
+}
+
+.formSection{
+    width: 85%;
+}
+
+.formBackground{
+    width: 100%;
+    text-align: center;
+    background-image: url(../images/contact-bg.png);
+    height: auto;
+    background-size: 100%;
+    padding: 40px 0 60px 0;
+}
+
+.formHead{
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.detailSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.inform{
+    width: 75%;
+    font-size: 16px;
+    color: #363636;
+    border: 2px solid #8eb50b;
+    background-color: #fff;
+    padding: 10px 15px 10px 15px;
+    margin-top: 20px;
+}
+
+.comment{
+    width: 75%;
+    font-size: 16px;
+    color: #363636;
+    border: 2px solid #8eb50b;
+    background-color: #fff;
+    padding: 10px 15px 10px 15px;
+    margin-top: 20px;
+}
+
+.sendBtn{
+    width: 200px;
+    margin-top: 50px;
+    background-color: #8eb50b;
+    color: white;
+    padding: 20px 15px 20px 15px;
+    font-size: 13px;
+}
+
+.orderSection{
+    width: 77%;
+    margin: auto;
+}
+   
+.orderSet{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    padding: 30px 40px;
+}
+
+.orderText{
+    font-size: 20px;
+}
+
+.orderBtn{
+    background-color: #8eb50b;
+    color: white;
+    padding: 22px 35px 22px 35px;
+    border-radius: 5px;
+    font-size: 11px;
+}
