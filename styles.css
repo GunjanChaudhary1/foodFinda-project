@@ -1,6 +1,8 @@
 *{
-    padding: 0;
-    margin: 0;
+    margin: 0px;
+}
+
+body{
     font-family: sans-serif;
     overflow-x: hidden;
 }
@@ -15,6 +17,10 @@
     padding-right: 70px;
 }
 
+.headerContainer:hover{
+    cursor: pointer;
+}
+
 .contact{
     background: 1px solid #252525;
     background-color: #252525;
@@ -23,6 +29,12 @@
     padding: 25px 40px;
     color: white;
     font-weight: 250;
+}
+
+.contact:hover{
+    cursor: pointer;
+    color: #8eb50b;
+    transition: 1s;
 }
 
 .navBackground{
@@ -43,6 +55,16 @@
    padding-right: 30px;
    margin-left: 300px;
    margin-right: 400px;
+}
+
+.nav li:hover{
+    cursor: pointer;
+    color: #8eb50b;
+    transition: 1s;
+}
+
+.activegreen{
+    color: #8eb50b;
 }
 
 .dif{
@@ -150,6 +172,13 @@
     margin-bottom: 40px;
 }
 
+.Order:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    transition: 1s;
+}
+
 .menuHead{
     width: 100%;
     float: left;
@@ -245,6 +274,12 @@
     font-weight: 700;
 }
 
+.seeButton:hover{
+    background-color: rgb(255, 153, 0);
+    transition: 1.5s;
+    cursor: pointer;
+}
+
 .blogHead{
     width: 100%;
     float: left;
@@ -299,11 +334,18 @@
     margin-right: 400px;
 }
 
+.readButton:hover{
+    background-color: rgb(255, 115, 0);
+    transition: 1.5s;
+    cursor: pointer;
+}
+
 .contain{
     border: 1px soolid #8eb50b;
     background-color: #8eb50b;
     width: 100%;
     height: auto;
+    margin-top: 60px;
 }
 
 .mainArea{
@@ -356,6 +398,13 @@
     margin-left: 100px;
 }
 
+.download:hover{
+    background-color: rgb(255, 115, 0);
+    color: white;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
 .mobileImg{
     display: flex;
     justify-content: center;
@@ -392,6 +441,7 @@
     font-size: 20px;
     color: #8eb50b;
     font-weight: 200;
+    padding-bottom: 10px;
 }
 
 .boxText{
@@ -412,6 +462,18 @@
    background-color: #8eb508;
    margin-right: 10px;
    padding: 15px 20px;
+}
+
+.slideleft:hover{
+    cursor: pointer;
+    background-color: white;
+    transition: 1s;
+}
+
+.slideright:hover{
+    cursor: pointer;
+    background-color: white;
+    transition: 1s;
 }
 
 .imageleft{
@@ -455,7 +517,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
 }
 
 .inform{
@@ -487,6 +548,12 @@
     font-size: 13px;
 }
 
+.sendBtn:hover{
+    background-color: rgb(255, 115, 0);
+    transition: 1.5s;
+    cursor: pointer;
+}
+
 .orderSection{
     width: 77%;
     margin: auto;
@@ -513,4 +580,217 @@
     padding: 22px 35px 22px 35px;
     border-radius: 5px;
     font-size: 11px;
+}
+
+.orderBtn:hover{
+    background-color: rgb(255, 115, 0);
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+.footerSection{
+    width: 85%;
+    height: auto;
+    padding-bottom: 30px;
+    margin-top: 90px;
+}
+
+.footerDetails{
+    width: 85%;
+}
+
+.containFooter{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.footerLogo{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.footerText{
+    font-size: 14px;
+    color: #f8f8f8;
+    padding-top: 10px;
+    font-weight: 540;
+    line-height: 24px
+}
+
+.listText{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.footerMenu{
+   line-height: 24px;
+   padding-top: 10px;  
+}
+
+.addressText{
+    padding-left: 30px;
+    line-height: 24px;
+    padding-top: 10px; 
+    color: #8eb50b; 
+    font-size: 14px;
+}
+
+.locationText{
+    padding-left: 30px;
+    line-height: 24px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.subMenu{
+    line-height: 24px;
+    padding-top: 10px;
+}
+
+.discoverPoints{
+    list-style: none;
+    font-size: 15px;
+}
+
+.mediaPoint{
+    list-style: none;
+    display: flex;
+    margin-top: 30px; 
+    align-items: center;
+    justify-content: center;
+    padding-right: 50px;
+}
+
+.face{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.twit{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.linked{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.insta{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.last{
+    background-color: #8eb50b;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 200px;
+}
+
+.Byhtml{
+    color: white;
+    text-align: center;
+    font-size: 17px;
+}
+
+.face:hover{
+    background-color: #8eb50b;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.twit:hover{
+    background-color: #8eb50b;
+    transition: 1s;
+    cursor: pointer;
+}
+/* 
+.points{
+    list-style-type: disc;
+
+}
+.points li::before {
+    content: "o"; 
+    color: white;
+    margin-right: 1rem;
+}
+li:hover:before{
+    color: red;
+} */
+a{
+    color: white
+}
+.points li {
+    list-style: none;
+  }
+ .points li:before {
+    content: "• ";
+    color: white;
+    margin-right:0.5rem;
+    font-size: 20px;
+  }
+ 
+ .points li:hover:before {
+    color: #8eb508;
+    
+  }
+
+  .points .active:nth-child(1):before{
+    color: #8eb508;
+  }
+
+.linked:hover{
+    background-color: #8eb50b;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.insta:hover{
+    background-color: #8eb50b;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.discoverPoints li:hover{
+    cursor: pointer;
+    color: #8eb50b;
+}
+
+.locationText:hover{
+    color: #8eb50b;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.points:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .layout{
+        background: #8eb508;
+    }
 }
