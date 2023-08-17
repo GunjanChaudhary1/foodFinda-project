@@ -110,6 +110,9 @@ body{
 }
 
 .textContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 700px;
     padding-top: 100px;
     line-height: 70px;
@@ -125,10 +128,12 @@ body{
 
 .city{
     background-color: white;
-    padding-left: 40px;
-    padding-right: 40px;
+    text-align: center;
     color: #8eb508;
     border-radius: 10px;
+    font-size: 50px;
+    font-weight: 700;
+    width: 50%;
 }
 
 .dropdown{
@@ -341,17 +346,17 @@ body{
 }
 
 .contain{
-    border: 1px soolid #8eb50b;
-    background-color: #8eb50b;
-    width: 100%;
+   
     height: auto;
-    margin-top: 60px;
 }
 
 .mainArea{
-    width: 97%;
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
+    background-color: #8eb50b;
+ margin: 40px 0px;
 }
 
 .content{
@@ -602,6 +607,7 @@ body{
 .containFooter{
     display: flex;
     justify-content: center;
+    align-items: center;
     color: white;
 }
 
@@ -789,8 +795,171 @@ a{
     cursor: pointer;
 }
 
-@media only screen and (max-width: 600px) {
-    .layout{
-        background: #8eb508;
+@media only screen and (min-width: 375px) and (max-width:667px){
+    .mainArea{
+       flex-direction: column;
+    }
+    .getApp{
+        padding-left: 0%;
+        font-size: 45px;
+    }
+    .getText{
+        padding-left: 0%;
+        width: 100%;
+        padding-top: 0%;
+    }
+    .mainIcon{
+        padding-left: 0%;
+        flex-direction:column;
+    }
+    .icon{
+        margin-bottom: 0%;
+    }
+    .download{
+        margin: auto;
+        width: 50%;
+    }
+    .contain{
+        margin-top: 0%;
+    }
+    .content{
+        text-align: center;
+        padding: 4%;
+    }
+    .mobileImg{
+        padding-top: 10%;
+        padding-right: 0%;
+        padding-bottom: 20%;
+    }
+    .customerText{
+        font-size: 40px;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .customerOpi{
+        flex-direction: column;
+        padding-left: 0%;
+        width: 100%;
+    }
+    .opinionBox{
+        padding-right: 0%;
+        margin: 0px 16px;
+    }
+    .opinionText{
+        padding-top: 10%;
+    }
+    .orderSet{
+        flex-direction: column;
+    }
+    .orderText{
+        font-size: 12px;
+    }
+    .orderBtn{
+        padding: 10px;
+    }
+    .footerSection{
+        width: 100%;
+    }
+    .containFooter {
+        flex-direction: column;
+    }
+    .footerDetails{
+        width: 100%;
+        padding-bottom: 8%;
+    }
+    .footerLogo{
+        padding-left: 5%;
+    }
+    .footerText{
+        padding-left: 5%;
+       
+    }
+    .mediaPoint{
+        justify-content: left;
+    }
+    .blogHead{
+        font-size: 90%;
+        padding-left: 0%;
+        padding-top: 0%;
+        text-align: center;
+    }
+    .blog{
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+    .imageBlog{
+        width: 200%;
+    }
+    .blogText{
+        width: 100%;
+    }
+    .readButton{
+        margin-right: 50%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .menuImage {
+        flex-direction: column;
+    }
+    .seeButton{
+        margin-bottom: 20%;
+        width: 80%;
+        margin-left: 8%;
+    }
+    .image{
+        width: 100%;
+    } 
+    .breakfast{
+        padding: 5% 30%;
+    }
+    .menuHead{
+        font-size: 230%;
+        padding-top: 5%;
+        padding-bottom: 10%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .textContainer{
+        width: 100%;
+        padding: 10% 0%;
+    }
+    .text{
+        width: 80%;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .city{
+        width: 260px;
+        font-size: 190%;
+    }
+    .Order{
+        margin-top: 10%;
+        margin-bottom: 0%;
+    }
+    .optionContainer{
+        display: none;
+    }
+    .search{
+        width: 100%;
+    }
+    .last{
+        width: 90%;
+    }
+    .nav{
+        display: none;
+    }
+    .contact{
+        display: none;
+    }
+    .headerContainer{
+        padding: 0%;
     }
 }
+@media only screen and (min-width: 414px) and (max-width:896px){
+    .Byhtml{
+        width: 93%;
+    }
+    .footerText{
+        width: 85%;
+    }
+}    
